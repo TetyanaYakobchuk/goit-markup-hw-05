@@ -57,7 +57,16 @@
       <!--Hero section-->
       <section class="hero-section">
         <h1 class="hero-title" >Эффективное решение<br>для вашего бизнеса</h1>
-        <a href="" class="hero-button" data-modal-open>Заказать услугу</a>
+        <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="close-modal hover" data-modal-close>
+              <svg class="close-icon" width="30px" height="30px">
+                <use href="./images/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
 
 
@@ -399,15 +408,6 @@
       </div>
     </div>
   </footer>
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-     <button class="close-modal hover" data-modal-close>
-        <svg class="close-icon" width="11px" height="11px">
-         <use href="./images/sprite.svg#close-icon"></use>
-        </svg>
-      </button>
-    </div>
-  </div>
-<script src="./modal.js"></script>
+  <script src="./modal.js"></script>
   </body>
 </html>
