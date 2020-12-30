@@ -616,8 +616,7 @@ nav {
 
 /* FOOTER */
 .footer {
-  width: 1600px;
-margin: auto;
+  width: auto;
   background: #2f303a;
 }
 .footer .container {
