@@ -287,6 +287,7 @@ nav {
   max-width: 1600px;
   padding-top: 0px;
   padding-bottom: 0px;
+  margin: auto;
 }
 
 /* .item {
@@ -425,7 +426,7 @@ nav {
 }
 
 .team {
-  max-width: 1600px;
+  width: 100%;
   background-color: var(--background);
 }
 .team-container {
@@ -503,7 +504,8 @@ nav {
 /* CLIENTS */
 
 .client {
-  max-width: 1600px;
+  width: 1600px;
+  margin: auto;
 }
 .client-logo {
   display: flex;
@@ -614,8 +616,8 @@ nav {
 
 /* FOOTER */
 .footer {
-  max-width: 1600px;
-
+  width: 1600px;
+margin: auto;
   background: #2f303a;
 }
 .footer .container {
