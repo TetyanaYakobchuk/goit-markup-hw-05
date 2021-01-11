@@ -256,6 +256,7 @@ nav {
   border-radius: 4px;
   opacity: 1;
   transition: transform, var(--transition-duration-timing);
+  z-index: 1;
 }
 .close-modal {
   position: absolute;
@@ -393,6 +394,7 @@ nav {
 }
 .job-image {
   position: relative;
+  
 }
 .case-item {
   position: absolute;
